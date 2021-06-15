@@ -19,4 +19,26 @@ main() {
 
   print(resultado);
 
+  /**
+   * String
+   * Detección de valores nulos, Ejemplo: String? nombre2;
+   */
+
+  String nombre   = 'Alan';
+  String nombre2  = "Alan";
+  String nombre3  = 'O\'Connor';
+  String nombre4  = "O'Connor";
+  String apellido = "Cortes";
+
+  String nombreCompleto = '$nombre $apellido'; // Concatenar 
+
+  String multilinea = '''
+  Hola mundo 
+  ¿Como estas?
+  $nombre2
+  O'Connor''';
+
+  print(nombreCompleto);
+
+
 }
