@@ -40,5 +40,13 @@ main() {
 
   print(nombreCompleto);
 
+  /**
+   *  Boleans 
+   */
+
+  bool isActive = true;
+
+  print(isActive);
+
 
 }
