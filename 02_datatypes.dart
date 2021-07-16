@@ -48,5 +48,53 @@ main() {
 
   print(isActive);
 
+  /***
+   *  Lists
+   *  Son base 0
+   */
+
+  List<String> villanos = ['Lex', 'Red Skull', 'Doom'];
+
+  villanos[0] = 'Superman';
+  villanos.add('Duende Verde');
+
+  print(villanos);
+
+
+  /***
+   *  Sets
+   */
+
+  Set<String> villanos2 = { 'Lex', 'Red Skull', 'Doom' };
+
+  villanos2.add('Duende Verde');
+
+  print(villanos2);
+
+
+  /***
+   *  Maps
+   *  Contiene pares  de valores(llave y valor)
+   */
+
+  Map<String, dynamic> ironman = {
+
+    'nombre': 'Tony Stark',
+    'poder': 'Inteligencia y el dinero',
+    'nivel': 9000
+  };
+
+
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll({
+    
+    'nombre': 'Steve',
+    'poder': 'Soportar droga sin morir',
+    'nivel': 5000
+
+  });
+
+  print(capitan);
 
 }
